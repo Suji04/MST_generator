@@ -57,7 +57,7 @@ function reset(){
 	mst=[];
 }
 
-function mouseReleased(){
+function mousePressed(){
 	if(mouseX<width && mouseY<height){
 	ver.push(createVector(mouseX, mouseY));
 	}
