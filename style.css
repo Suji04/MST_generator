@@ -4,7 +4,7 @@ button {
 	border: none;
 	color: white; 
 	padding: 10px 24px; 
-	width: 350px; 
+	width: 250px; 
 	display: block;
 	font-size: 20px;
 
@@ -24,14 +24,14 @@ div{
 	margin: 20px auto;
 	border-radius: 8px;
 	background-color: #a5c9ba;
-	width: 350px;
+	width: 250px;
 	font-size: 12px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #442d7a;
 }
 
 h3{
-	padding: 5px 15px;
+	padding: 0px 10px;
 }
 
 h2{
@@ -39,15 +39,30 @@ h2{
 	color: #1f1133;
 }
 
+@media (min-width: 319px) {
+    body {
+        background-image: url("https://lh3.googleusercontent.com/e9l0CfSv-SuPabn5Wzp7Wl5wjX6lj571Gv1UuGRx68vblFxGIJ_Q76asXXBNwLiJlm65d5zBal4LNAEkqISpSU7bibAEZd7eIsMo89gLRKEYlVwBoNL_slhOsR-aiajYVWjZ8d1GRditBOYGtjEaMSOjyCtGviBBiiq6Pd7nHlugmQwuGb-N9N4g13AVnwE_Z9kyCSjv1hTeRPwIIn9VPEhWF-JM-7s5Di8yebOshzzHg_-mV32iLYiVS_mPCSEDmEkboUseeAYyON5PNjiBCpO_tlq4JewCaMFCGRNbCniWb9gmfalQwnWtQVb4y0ib2f88CYH52kw-TNrqpa5rgVbvKFxHNgROaemVLaWNI-YzqIHOoLC4jxquL_EWvnmdd2S5vp1efG8lx90GA2DTMevZ7mWEF3lMaGMsWhYjcUaK8X8Qkc4RHk2v6Ul-XFJezuXmEyJNnaC4aAkjs8rzJL1Dfn60GIhZUZl7C1QwJGvvnv4jm-cV3eAfIUORJSmrJA1fc1UDTF0twpWOJNSIHzMGEs-DX9v3NLjWsT60UNc5wFUsLR31aX-J0hFsM6_yo0bElOBQDboMlaUeQb4W30htNjXgx4_myBuojagPlT0lhZ5QA7xlaPPLiquag31vpaUpNs_vGNBLq9j_jFbtod6hEg=w411-h730-no");
+    }
+}
+
+@media (min-width: 767px) {
+    body {
+        background-image: url("https://lh3.googleusercontent.com/196vjtj8f3NKjj9EpwRVPjub1FqmL49pyfy8BQJ6ZhEEzmYGsZI0tEVfn0MEb71z2EzN9_bZ5oglaju_pguXB9kF0HR_3DvbdFwyF7PLBBB7W13T9Vl_gYHqnwo2HfURS16I05sK06rTNpzujsw7HZwrklW6vZKLXz8uprDkN--OrMF0TyTnRJUiXOtghPAGsKQjx59NBkJsiTlU-5PYZPLvonaBqKB1Cwwp0tU3LmdY7nvDNC1a7zlJTJUO0W4YSr7L2HuFc5O4jvqdXQMkXQYEfXAe3unGCwy0O74PCbIi0K16y22cuYDHy9S2nh1cj6ab1OUkDhlnEuO3CIqTTrkyRyJdkuUV2TBD3DZaVZJHQuhB6XJaSVyRmLhdEfRJlr1GwBbhpxEUMLiSnc7M0Zz6SfKj-VbbUEQJmaDbaiREtYXA18DibPBZSl6ISkmYwfHkqZrlBX5zlvvTkzIn0OQPQ4vQ3PolljFEeNMt3JHrhmFSLrUSh0y_g0RQJw4E4U9rviAYe_JTjIcQU9GG6Xt-pAj7cEEzOpNgiisvfjBED3EVLM_J1xUgHFY7FR8__N3UJvVPUzstnXbLPrAtqh9jiDBqSb33wg2HC8rYjoSi2axwkhuzgy0AV9hS7JJuNismad7AfkwIfiWHROeQLfgf3g=w1298-h730-no");
+    }
+}
+
 body{
-    	background-position: center center; 
+	background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
 	padding: 0;
 	margin: 0;
 }
 
 #mst{
 	font-size: 25px;
-	color: #678ece;
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
 	font-family: "Lucida Console", Monaco, monospace;
 	letter-spacing: 1px;
 }
