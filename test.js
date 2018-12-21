@@ -9,10 +9,17 @@ var edges=[];
 var mst=[];
 var x=0;
 
+function msg(){
+  	fill(255,140);
+	textSize(20);
+	textAlign(CENTER);
+  	text("please wait a bit after pressing the buttons", 325, 50);
+}
+
 function setup(){
  	var c=createCanvas(650, 500);
   	background("#222343");
-	msg();
+  	msg();
   	butt = createButton("PRIMS'S MST");
   	butt.mousePressed(prims);
   	butt2 = createButton("KRUSKAL'S MST");
@@ -30,14 +37,7 @@ function setup(){
   	para = select("div");
   	para.position(750,220);
   	m = select("#mst");
-  	m.position(90,550);
-}
-
-function msg(){
-  	fill(255,150);
-	textSize(20);
-	textAlign(CENTER);
-  	text("please touch and hold for 2 sec to add vertices in mobile mode", 325, 50);
+  	m.position(90,530);
 }
 
 function clean(){
