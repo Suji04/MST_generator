@@ -29,13 +29,13 @@ function setup(){
   	butt4 = createButton("CLEAR");
   	butt4.mousePressed(clean);
 
-  	butt.position(750,20);
-  	butt2.position(750,70);
-  	butt3.position(750,120);
-  	butt4.position(750,170);
+  	butt.position(710,20);
+  	butt2.position(710,70);
+  	butt3.position(710,120);
+  	butt4.position(710,170);
 
   	para = select("div");
-  	para.position(750,220);
+  	para.position(710,220);
   	m = select("#mst");
   	m.position(90,530);
 }
