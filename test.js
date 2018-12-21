@@ -12,6 +12,7 @@ var x=0;
 function setup(){
  	var c=createCanvas(650, 500);
   	background("#222343");
+	msg();
   	butt = createButton("PRIMS'S MST");
   	butt.mousePressed(prims);
   	butt2 = createButton("KRUSKAL'S MST");
@@ -56,7 +57,7 @@ function reset(){
 	mst=[];
 }
 
-function mousePressed(){
+function mouseReleased(){
 	if(mouseX<width && mouseY<height){
 	ver.push(createVector(mouseX, mouseY));
 	}
