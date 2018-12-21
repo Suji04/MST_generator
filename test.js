@@ -32,8 +32,16 @@ function setup(){
   	m.position(90,550);
 }
 
+function msg(){
+  	fill(255,150);
+	textSize(20);
+	textAlign(CENTER);
+  	text("please touch and hold for 2 sec to add vertices in mobile mode", 325, 50);
+}
+
 function clean(){
 	background("#222343");
+	msg();
 	x=0;
 	edges=[];
 	mst=[];
@@ -42,6 +50,7 @@ function clean(){
 
 function reset(){
 	background("#222343");
+	msg();
 	x=0;
 	edges=[];
 	mst=[];
