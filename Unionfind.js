@@ -20,6 +20,7 @@ class UnionFind {
 
    find(a) {
       while (this.parent[a] !== a) {
+         this.parent[a] = this.parent[this.parent[a]];
          a = this.parent[a];
       }
       return a;
